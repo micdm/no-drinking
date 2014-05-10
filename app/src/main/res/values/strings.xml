@@ -3,13 +3,17 @@
     <!-- Общее -->
     <string name="app_name">Стоп-бухара</string>
     <!-- Сообщение -->
-    <string name="message_first_day">Первый день</string>
-    <string name="message_many_days">%1$s %2$s</string>
+    <string name="message">%1$s %2$s</string>
     <plurals name="message_day">
         <item quantity="one">день</item>
         <item quantity="few">дня</item>
         <item quantity="many">дней</item>
     </plurals>
+    <string name="special_date_1">Один день</string>
+    <string name="special_date_7">Одна неделя</string>
+    <string name="special_date_30">Один месяц</string>
+    <string name="special_date_180">Полгода</string>
+    <string name="special_date_365">Один год</string>
     <!-- Основной экран -->
     <string name="activity_main_button">Завязываю</string>
 </resources>

@@ -21,7 +21,7 @@ public class TimestampManager {
 
     public Integer getDaysPassed() {
         long timestamp = getSharedPreferences().getLong(PREF_NAME, 0);
-        return timestamp == 0 ? null : (int) Math.floor((System.currentTimeMillis() - timestamp) / DAY_MILLISECONDS);
+        return timestamp == 0 ? null : (int) Math.ceil((System.currentTimeMillis() - timestamp) / (float) DAY_MILLISECONDS);
     }
 
     public void createTimestamp() {
